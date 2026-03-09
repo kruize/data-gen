@@ -5,7 +5,7 @@ import subprocess
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, floor, lit
 
-WINDOW = 12 * 60 * 60
+WINDOW = 6 * 60 * 60
 
 
 def parse_args():
